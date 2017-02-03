@@ -1,0 +1,18 @@
+---
+lockfile_version: 1
+depends:
+- name: dev-sec/ssh-baseline
+  resolved_source:
+    url: https://github.com/dev-sec/ssh-baseline/archive/master.tar.gz
+    sha256: 93f3810626dbf3381b4fc9d0cc9a39b0f9034af738e9ba11170c166089d6fd38
+  version_constraints: ">= 0"
+- name: ssl-benchmark
+  resolved_source:
+    url: https://github.com/dev-sec/ssl-benchmark/archive/master.tar.gz
+    sha256: 6fbb39d5c8ab126f91aa4c8369c7eefe7cd34c0c67f7adc3cd0b3521e173b9b2
+  version_constraints: ">= 0"
+- name: windows-patch-benchmark
+  resolved_source:
+    url: https://github.com/chris-rock/windows-patch-benchmark/archive/master.tar.gz
+    sha256: 3d473e72d8b70018386a53e0a105e92ccbb4115dc268cadc16ff53d550d2898e
+  version_constraints: ">= 0"

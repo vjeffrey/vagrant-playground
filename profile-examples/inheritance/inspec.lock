@@ -1,0 +1,11 @@
+---
+lockfile_version: 1
+depends:
+- name: profile
+  resolved_source:
+    path: "/Users/vjeffrey/code/compliance/inspec/examples/profile"
+  version_constraints: ">= 0"
+- name: profile-attribute
+  resolved_source:
+    path: "/Users/vjeffrey/code/compliance/inspec/examples/profile-attribute"
+  version_constraints: ">= 0"
